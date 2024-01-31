@@ -1,0 +1,120 @@
+/* @theme theme-dark */
+
+@import 'default';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+section {
+	letter-spacing: 0;
+	font-family: "Liberation Sans", serif;
+	justify-content: flex-start;
+}
+
+h1 strong, h2 strong, h3 strong {
+	color: #0c6;
+}
+
+section.page-title {
+	justify-content: space-around;
+}
+
+
+
+section.green h1, section.green h2 {
+	color: #333;
+}
+
+
+section.green {
+	background: $color-green;
+}
+
+section.green h1, section.green h2 {
+	color: #fff;
+}
+
+
+
+section.inverted {
+	color: white;
+	background: #333;
+}
+
+section.inverted h1, section.inverted h2 {
+	color: #fff;
+}
+
+section.inverted a {
+	color: #0c6;
+}
+
+section.inverted strong {
+	color: #0c6;
+}
+
+
+section.lead {
+  text-align: center;
+  justify-content: center;
+}
+
+
+section.centered {
+	justify-content: space-between;
+}
+
+
+h1 {
+	font-size: 2.2em;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin: 0;
+}
+
+h4 { margin: 0; }
+
+h6 { font-weight: lighter; color: #999; margin-top: 0; margin-bottom: 24px; }
+
+.green {
+	background: green;
+	justify-content: flex-end;
+}
+
+
+
+section::after {
+  content: 'Page ' attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
+
+
+section.center {
+	text-align: center;
+	align-items: center;
+}
+
+section.middle {
+	justify-content: center;
+}
+
+
+section.bg-orange { background-color: orange; text-transform: lowercase;}
+section.bg-dark { background-color: #111 ;}
+
+section.bg-dark { color: white; }
+section.bg-dark h4 , section.bg-dark h3 { opacity: 0.7; }
+
+section.magenta { background: magenta }
+section.green { background: #0c6; }
+section.white h1 { color: white; }
+section.black h1 { color: black; }
+
+section.large h2 { font-size: 240% }
+
