@@ -1,0 +1,23 @@
+{
+  "name": "marp-themes",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/martinve/marp-themes#readme",
+  "bugs": {
+    "url": "https://github.com/martinve/marp-themes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinve/marp-themes.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "github-markdown-css": "^5.8.1"
+  }
+}
